@@ -14,10 +14,14 @@
     color: #333333;
     }
        
+    body {
+        font-family: Helvetica, sans-serif;
+      }
+      
 
     /* Header styles */
     header {
-      background-color: #000000;
+      background-color: #422fe7;
       color: #ffffff;
       text-align: center;
     }
@@ -34,7 +38,7 @@
     header .btn {
       display: inline-block;
       background-color: #ffffff;
-      color: #000000;
+      color: #422fe7;
       font-size: 14px;
       font-weight: bold;
       padding: 10px 20px;
@@ -74,3 +78,10 @@
       margin: 0 0 20px 0;
       font-size: 36px;
     }
+
+    .section-divider {
+        border-top: 10px solid #422fe7;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      
