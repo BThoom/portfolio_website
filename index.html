@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <style>
-    body {
-      font-family: Helvetica, sans-serif;
-    }
-    </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bhargav Thoom</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
@@ -17,33 +14,29 @@
     <div class="container">
       <h1>Bhargav Thoom</h1>
       <h2>Mechanical EIT, PMP</h2>
-      <a href="#" class="btn">Resume</a>
+      <a href="#" class="btn btn-primary">Resume</a>
     </div>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#experience">Experience</a></li>
-      </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    
-    <style>
-      nav ul {
-        list-style: none;
-        display: flex;
-      }
-      nav li {
-        margin-right: 10px;
-      }
-    </style>
-    
   </header>
 
   <div class="main">
     <div class="sidebar">
-      <img src="LinkedIn Profile - Front.jpg" alt="description of image"> 
-      
+      <img src="LinkedIn Profile - Front.jpg" alt="description of image">
     </div>
     <div class="content">
       <h2>Welcome to my Site</h2>
@@ -54,167 +47,152 @@
       <p>Please don't hesitate to contact me if you have any questions or would like to learn more about my work.</p>
     </div>
   </div>
-</div>
 
-    <div class="section-divider">
-        <!-- Content of the first section -->
-    </div>
+  <div class="section-divider"></div>
 
-  
-  <div id="skills">
+  <div id="skills" class="container">
     <h2>Skills</h2>
-    <table style="width:100%">
-      <tr>
-        <th style="width:33%">Design Skills</th>
-        <th style="width:33%">Analytical Skills</th>
-        <th style="width:33%">Technical Skills</th>
-      </tr>
-      <tr>
-        <td style="width:33%">
-          <ul>
-            <li>AutoDesk Suite</li>
-            <li>Dassault Systems Suite</li>
-            <li>Seimens NX</li>
-            <li>Adobe Creative Suite</li>
-            <li>Blender</li>
-            <li>Unity</li>
-          </ul>
-        </td>
-        <td style="width:33%">
-          <ul>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>C/C++</li>
-            <li>LabVIEW</li>
-            <li>Excel</li>
-            <li>Neural Networks</li>
-            <li>Biomechanic Models</li>
-          </ul>
-        </td>
-        <td style="width:33%">
-          <ul>
-            <li>3D Printing</li>
-            <li>CNC Machining</li>
-            <li>DFM/DFA</li>
-            <li>Thermodynamics</li>
-            <li>Fluid Mechanics</li>
-            <li>Material Science</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-
-    <div class="section-divider">
-        <!-- Content of the second section -->
-    </div>
-    
-    <table style="width:100%">
-      <tr>
-        <th style="width:33%">Communication Skills</th>
-        <th style="width:33%">Project Management Skills</th>
-        <th style="width:33%">Electrical Skills</th>
-      </tr>
-      <tr>
-        <td style="width:33%">
-          <ul>
-            <li>Technical Reports</li>
-            <li>Design Documents</li>
-            <li>Push/Pull Communications</li>
-            <li>Interpersonal Skills / EQ</li>
-          </ul>
-        </td>
-        <td style="width:33%">
-          <ul>
-            <li>Planning</li>
-            <li>Risk Management</li>
-            <li>Resource Management</li>
-            <li>Agile, Waterfall, and Scrum methodologies</li>
-          </ul>
-        </td>
-        <td style="width:33%">
-          <ul>
-            <li>Circuit Analysis</li>
-            <li>Electrical Test and Measurement Equipment</li>
-            <li>Electric Motors</li>
-            <li>Power Inverters</li>
-          </ul>
-        </td>
-      </tr>
-    </table> 
-    
-    <div class="section-divider">
-        <!-- Content of the second section -->
-    </div>
-
-  </div>
-  <div id="portfolio">
-    <h2>Portfolio</h2>
-    <div class="project">
-      <img src="[project image file path]" alt="[project name]">
-      <h3>[Project Name]</h3>
-      <p>[Project Description]</p>
-    </div>
-    <div class="project">
-      <img src="[project image file path]" alt="[project name]">
-      <h3>[Project Name]</h3>
-      <p>[Project Description]</p>
-    </div>
-    <div class="project">
-      <img src="[project image file path]" alt="[project name]">
-      <h3>[Project Name]</h3>
-      <p>[Project Description]</p>
-    </div>
-  </div>
-  
-  <div class="section-divider">
-    <!-- Content of the second section -->
-    </div>
-  
-  <div id="experience">
-    <h2>Work Experience</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Design Skills</h3>
         <ul>
-          <li>
-            <h3>Orpyx Medical Technologies Inc. - Test and Development Engineer</h3>
-            <p>Calgary, AB</p>
-            <p>Oct 2021 - Present</p>
-            <ul>
-              <li>Designed and fabricated RunBot test apparatus equipment including prosthetics, molds, jigs, and fixtures allowing the engineering team to test the durability of insoles for 10,000 simulated steps / 8 hours of running.</li>
-              <li>Developed electro-mechanical equipment to aid with data collection such as Arduino voltage, current, and continuity testers that would run alongside a Mark-10 digital force gauge allowing cyclic compression tests to run 24/7 increasing throughput by 66% and sending email notifications with test updates.</li>
-              <li>Utilized python libraries to conduct data analysis to validate the effectiveness of multiple test machines in replicating the human gait of the average patient with diabetes.</li>
-            </ul>
-          </li>
-          <li>
-            <h3>Exro Technologies Inc. - Market Intelligence Intern</h3>
-            <p>Calgary, AB</p>
-            <p>May 2021 - Aug 2021</p>
-            <ul>
-              <li>Collated sales data from multiple electric vehicle (EV) inverter manufacturers to forecast future sales in different markets.</li>
-              <li>Created an interactive 3D map of automotive hubs around the world, based on OEM, Tier 1 supplier, Tier 2 supplier, location, and proximity to Engineering firms to help the company strategize on their expansion.</li>
-              <li>Monitored competitor activity, such as technology development, mergers, acquisitions, partnerships, and joint ventures in order to maintain an understanding of the market landscape and make recommendations to improve company performance.</li>
-            </ul>
-          </li>
-          <li>
-            <h3>UBC ThunderBikes Design Team - Founder, Captain, Technical Officer</h3>
-            <p>Vancouver, BC<br>
-            Jan 2018 - May 2021</p>
-            <ul>
-              <li>Presented the idea of a high-performance electric bike / electric motorcycle design team at UBC to promote sustainable transportation on campus, to both university and private stakeholders to secure over $100,000 of funding over 3 years.</li>
-              <li>Lead the design team in developing 2 different electric bikes and 1 electric race motorcycle one of which was presented to the University President, Faculty of Applied Science and Mechanical Engineering department.</li>
-              <li>Mentored team members by doing weekly presentations covering the following materials: Bike Mechanics, CAD in SolidWorks, AC 3-phase motor operation, control software, and electric bike circuits.</li>
-              <li>Featured guest on UBC President Santa Ono's Podcast discussing UBC Climate 2030 net-neutral goals and sustainable transportation on campus (<a href="https://president.ubc.ca/podcast/2021/04/15/episode-20-thunderbikes-are-go/">https://president.ubc.ca/podcast/2021/04/15/episode-20-thunderbikes-are-go/</a>).</li>
-            </ul>
-          </li>
+          <li>AutoDesk Suite</li>
+          <li>Dassault Systems Suite</li>
+          <li>Seimens NX</li>
+          <li>Adobe Creative Suite</li>
+          <li>Blender</li>
+          <li>Unity</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h3>Analytical Skills</h3>
+        <ul>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>C/C++</li>
+          <li>LabVIEW</li>
+          <li>Excel</li>
+          <li>Neural Networks</li>
+          <li>Biomechanic Models</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>3D Printing</li>
+          <li>CNC Machining</li>
+          <li>DFM/DFA</li>
+          <li>Thermodynamics</li>
+          <li>Fluid Mechanics</li>
+          <li>Material Science</li>
+        </ul>
+      </div>
+    </div>
 
-        </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Communication Skills</h3>
+        <ul>
+          <li>Technical Reports</li>
+          <li>Design Documents</li>
+          <li>Push/Pull Communications</li>
+          <li>Interpersonal Skills / EQ</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h3>Project Management Skills</h3>
+        <ul>
+          <li>Planning</li>
+          <li>Risk Management</li>
+          <li>Resource Management</li>
+          <li>Agile, Waterfall, and Scrum methodologies</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h3>Electrical Skills</h3>
+        <ul>
+          <li>Circuit Analysis</li>
+          <li>Electrical Test and Measurement Equipment</li>
+          <li>Electric Motors</li>
+          <li>Power Inverters</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-        <div class="section-divider">
-            <!-- Content of the second section -->
+  <div class="section-divider"></div>
+
+  <div id="portfolio" class="container">
+    <h2>Portfolio</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="project">
+          <img src="[project image file path]" alt="[project name]">
+          <h3>[Project Name]</h3>
+          <p>[Project Description]</p>
         </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="project">
+          <img src="[project image file path]" alt="[project name]">
+          <h3>[Project Name]</h3>
+          <p>[Project Description]</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="project">
+          <img src="[project image file path]" alt="[project name]">
+          <h3>[Project Name]</h3>
+          <p>[Project Description]</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-divider"></div>
+ 
+  <div id="experience" class="container">
+    <h2>Work Experience</h2>
+  
+    <div>
+      <h3 class="experience-title">Orpyx Medical Technologies Inc. - Test and Development Engineer</h3>
+      <p class="location">Calgary, AB<br>Oct 2021 - Present</p>
+      <ul class="duties">
+        <li>Designed and fabricated RunBot test apparatus equipment including prosthetics, molds, jigs, and fixtures allowing the engineering team to test the durability of insoles for 10,000 simulated steps / 8 hours of running.</li>
+        <li>Developed electro-mechanical equipment to aid with data collection such as Arduino voltage, current, and continuity testers that would run alongside a Mark-10 digital force gauge allowing cyclic compression tests to run 24/7 increasing throughput by 66% and sending email notifications with test updates.</li>
+        <li>Utilized python libraries to conduct data analysis to validate the effectiveness of multiple test machines in replicating the human gait of the average patient with diabetes.</li>
+      </ul>
+    </div>
+  
+    <div>
+      <h3 class="experience-title">Exro Technologies Inc. - Market Intelligence Intern</h3>
+      <p>Calgary, AB<br>May 2021 - Aug 2021</p>
+      <ul class="duties">
+        <li>Collated sales data from multiple electric vehicle (EV) inverter manufacturers to forecast future sales in different markets.</li>
+        <li>Created an interactive 3D map of automotive hubs around the world, based on OEM, Tier 1 supplier, Tier 2 supplier, location, and proximity to Engineering firms to help the company strategize on their expansion.</li>
+        <li>Monitored competitor activity, such as technology development, mergers, acquisitions, partnerships, and joint ventures in order to maintain an understanding of the market landscape and make recommendations to improve company performance.</li>
+      </ul>
+    </div>
+  
+    <div>
+      <h3 class="experience-title">UBC ThunderBikes Design Team - Founder, Captain, Technical Officer</h3>
+      <p>Vancouver, BC<br>Jan 2018 - May 2021</p>
+      <ul class="duties">
+        <li>Presented the idea of a high-performance electric bike / electric motorcycle design team at UBC to promote sustainable transportation on campus, to both university and private stakeholders to secure over $100,000 of funding over 3 years.</li>
+        <li>Lead the design team in developing 2 different electric bikes and 1 electric race motorcycle one of which was presented to the University President, Faculty of Applied Science and Mechanical Engineering department.</li>
+        <li>Mentored team members by doing weekly presentations covering the following materials: Bike Mechanics, CAD in SolidWorks, AC 3-phase motor operation, control software, and electric bike circuits.</li>
+        <li>Featured guest on UBC President Santa Ono's Podcast discussing UBC Climate 2030 net-neutral goals and sustainable transportation on campus (<a href="https://president.ubc.ca/podcast/2021/04/15/episode-20-thunderbikes-are-go/">https://president.ubc.ca/podcast/2021/04/15/episode-20-thunderbikes-are-go/</a>).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-divider"></div>
+
   <footer>
     <div class="container">
       <!-- <img src="[logo file path]" alt="[logo description]"> -->
    
-      <p>Copyright <span id="year">2022</span> Bhargav Thoom, All Rights Reserved</p>
+      <p>&copy; <span id="year">2022</span> Bhargav Thoom, All Rights Reserved</p>
 
       <script>
         document.getElementById('year').innerHTML = new Date().getFullYear();
