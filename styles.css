@@ -90,6 +90,10 @@ header .nav {
   font-size: 14px; /* Adjust the font size as per your preference */
   line-height: 20px; /* Adjust the line height as per your preference */
 }
+.project h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
 
 .section-divider {
   border-top: 10px solid #422fe7;
